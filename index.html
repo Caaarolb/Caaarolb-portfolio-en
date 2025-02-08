@@ -1,131 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Projeto Portifólio">
-   <meta name="author" content="Jeisa Boaventura">
-   <meta name="keywords" content="HTML.CSS.Javascript">
-   <link rel="icon" href="./assets/img/favicon.svg" />
-   <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Portfólio da Jeisa</title>
-</head>
-<body>
-    <!-- cabeçalho da página-->
-     <header>
-        <div id="header_content">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Projeto Portfólio">
+		<meta name="author" content="Jeisa Boaventura">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+        <link rel="stylesheet" href="./assets/css/style.css">
+		<title>Meu Portfólio</title>
+	</head>
+	<body>
+		<!-- Cabeçalho da Página (header) -->
+		<header>
+			<!-- Div Conteudo do Cabeçalho -->
+			<div id="header_content">
+				<!-- Titulo do Cabeçalho -->
+				<div id="titulo" class="flex">
+					<!-- Seu nome -->
+					<h1>Jeisa Boaventura</h1>
+				</div>
 
-            <!-- titulo do menu-->
-            <div id="titulo">
-                <a href="#"> Universo</a>
-            </div>
+				<!-- Conteudo do Menu da Página (header) -->
+				<div id="menu">
+					<!-- Menu da Página -->
+					<nav>
+						<!-- Marcadores não ordenados + links -->
+						<ul id="menu">
+							<li>
+								<a href="index.html"> Inicio </a>
+							</li>
+							<li>
+								<a href="contato.html"> Contato </a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
 
-            <!-- menu-->
-        </div id="Menu">
-        <nav>
-            <!-- Marcadores Não Ordenados-->
-             <ul>
-                 <li><a href="#">Inicio</a></li>
-                 <li><a href="#sobre">Sobre</a></li>
-                 <li><a href="#Contato">Contato</a></li>
-                 
-             </ul>
-        </nav>
+		<!-- Seção Principal da Página (main) -->
+		<main>
 
-     </header>
+			<!-- Seção Sobre você -->
+			<section id="about" class="flex_start">
 
-     <!-- seção principal da página -->
+				<!-- Título da Seção -->
+				<h2>Sobre a Jeisa Boaventura</h2>
 
-     <main>
+				<!-- Conteúdo da Seção -->
+				<div id="conteudo" class="flex">
 
-        <section is="home">
-            <article id="home_texto">
+					<!-- Imagem do criador do conteúdo -->
+					<img
+						src="./assets/img/eu.png"
+						alt="Foto do criador desse conteudo"
+					/>
 
-                <h4>Bem-vindo(a) ao Novo Universo</h4>
-                <h1>Mundos diferentes para pessoas diferentes</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere possimus, cumque vero quae ipsa explicabo, itaque laudantium cupiditate atque magnam veniam, consectetur aperiam. Nihil, fugit possimus eos perferendis libero tempore.</p>
-                <a href="https://github.com/Caaarolb" target="_blanck">
-                    Esplorar
-                </a>
+					<!-- Texto sobre o criador do conteúdo -->
+					<article id="sobre_texto">
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Voluptatem odio possimus, dolorem earum atque
+							itaque quas soluta placeat iure omnis porro cum
+							debitis sequi libero! Deleniti vitae quis hic
+							cumque. Lorem ipsum, dolor sit amet consectetur
+							adipisicing elit. Eius inventore ullam, quia
+							deserunt enim cumque hic officia repudiandae ad ab
+							et sapiente qui vitae accusamus adipisci provident
+							sit assumenda laboriosam!
+						</p>
+					</article>
+				</div>	
+				
+	
+			</section>
 
-            </article>
-            <article id="home_imagem">
-                <img src="assets/img/astronauta.svg"
-                alt="Capacete de austronauta animado">
+		</main>
 
-            </article>
+		<!-- Rodapé da Página (footer) -->
+		<footer class="flex">
 
+			<!-- Seção de Contato - Redes Sociais-->
+            <section id="redes_sociais">
+				<a href="https://www.linkedin.com/in/-caroline-boaventura/">
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" />
+				</a>
+				<a href="https://github.com/Caaarolb">
+					<img src="assets/img/github.svg" alt="Github" />
+				</a>
+				<a href="https://www.instagram.com/karolboav/">
+					<img src="assets/img/instagram.svg" alt="Instagram" />
+				</a>
+			</section>
 
-        </section>
+			<h3>
+				Feito com ❤ por Jeisa Boaventura- 2025
+			</h3>
 
-        <!-- Seção sobre-->
-
-        <section id="sobre">
-            <img src="./assets/img/1732286612147.jpg"
-            alt="Foto do Perfil do Github">
-            <article id="sobre_texto">
-                <h1>Sobre Mim</h1>
-                <p> Atualmente cursando Engenharia de Software (2023), estudante do curso Técnico de Desenvolvimento de Sistemas na ETEC (2024) e do curso de Desenvolvimento Fullstack JavaScript da Generation Brasil . Conhecimento em HTML5, CSS, Java, JavaScript e PHP. Experiência em desenvolvimento de software com foco em linguagens de programação e refatoração de código.</p>
-
-                <div id="sobre_github" >
-                    <a href="https://github.com/Caaarolb"
-                    target="_blank">
-                    Github  </a> <br>
-                    <p>20 seguidores</p>
-                    <p>47 repositórios</p>
-
-                </div>
-
-            </article>
-            
-
-        </section>
-
-        <section id="Contato">
-            <h4>Contate-me</h4>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima provident dicta hic cupiditate, repudiandae voluptatibus eaque voluptates. Soluta vero deleniti esse architecto natus dolorem placeat aut tenetur eaque rem.</p>
-            <div id="icones_redes_sociais">
-                <a href="https://www.linkedin.com/in/-caroline-boaventura/" target="_blank"><img src="assets/img/linkedin.svg" alt=" Logo do Linkedin"target="_blank"></a>
-                <a href="https://github.com/Caaarolb" target="_blank"><img src="assets/img/github.svg" alt="Logo do Github"></a>
-                <a href="mailto:carolinelboaventura@gmail.com" target="_blank"><img src="./assets/img/gmail-svgrepo-com.svg" alt="Logo do Gmail"></a>
-                <a href="https://www.instagram.com/karolboav/" target="_blank"><img src="assets/img/instagram.svg" alt="Logo do Instagram"></a>
-
-            </div>
-
-            <form action="" method="post">
-                <label for="nome"> Nome</label>
-                <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
-
-                <span id="txtNome"></span>
-
-                
-                    <label for="email"> E-mail</label>
-                    <input id="email" type="text" name="email" placeholder="Digite o seu email">
-    
-                    <span id="txtEmail"></span>
-
-                    <label for="assunto">Assunto</label>
-                    <input id="assunto" type="text" name="assunto" placeholder="Digite o assunto da mensagem">
-    
-                    <span id="txtAssunto"></span>
-                    <label for="mesnagem">Mensagem</label>
-                    <textarea id="mensagem" name="mensagem" placeholder="Digite a sua mensagem"></textarea>
-
-                    <button type="submit"> Enviar</button>
-
-
-            </form>
-        </section>
-
-     </main>
-
-     <!-- RODAPÉ DA PÁGINA-->
-
-     <footer>
-        Feito com ❤ por Jeisa Boaventura - 2025
-
-     </footer>
-
-        
-</body>
+		</footer>
+	</body>
 </html>
