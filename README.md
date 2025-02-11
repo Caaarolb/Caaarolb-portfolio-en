@@ -1,78 +1,47 @@
-# Projeto Portfólio Pessoal
+# 🌟 Jeisa Boaventura - Portfolio
 
+Welcome to my portfolio! 🚀 I'm Jeisa Boaventura, a passionate Full Stack Developer with experience in scalable applications, backend development, and databases. I also have a keen interest in Artificial Intelligence.
 
-<div align="center">
-  <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" alt="HTML Badge" />
-  <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
-</div>
+Feel free to explore my projects and get in touch! 😊
 
-Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. O site inclui informações sobre mim, meus projetos, habilidades e formas de contato.
+## 🔗 Live Demo
+👉 [Check out my portfolio](https://caaarolb.github.io/Caaarolb-portfolio-en/) 🌐
 
+## 📌 Features
+- 🎨 Responsive design
+- 💌 Contact form
+- 🛠 Built with HTML, CSS, and JavaScript
+- ⚡ Smooth user experience
 
-## Tecnologias Utilizadas
+## 🛠 Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
 
+## 📷 Preview
+![Portfolio Screenshot](assets/img/portfolio-preview.png)
 
-- **HTML**: Estrutura de conteúdo e marcação do site.
+## 📩 Contact
+📧 Email: caaarolboa@gmail.com   
+💼 LinkedIn: [Jeisa Boaventura](https://www.linkedin.com/in/-caroline-boaventura/)  
+🐱 GitHub: [Caaarolb](https://github.com/Caaarolb)  
+📸 Instagram: [karolboav](https://www.instagram.com/karolboav/)
 
-- **CSS**: Estilização e layout das páginas.
+## 🛠 Installation
+To run the project locally, follow these steps:
 
-- **JavaScript**: Funcionalidades e interatividade do site.
+```bash
+# Clone this repository
+git clone https://github.com/Caaarolb/your-portfolio-repo.git
 
-
-## Executando Localmente
-
-
-Para visualizar o projeto localmente, siga as instruções abaixo:
-
-
-### Pré-requisitos
-
-
-- [Visual Studio Code](https://code.visualstudio.com/) (ou outro editor de sua preferência)
-
-- Extensão **Live Server** no VSCode
-
-
-### Passos
-
-
-1. Clone o repositório:
-
-  ```bash
-
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-
+# Open index.html in your browser
 ```
 
-2. Abra o projeto no Visual Studio Code:
+## ❤️ Thanks for visiting my portfolio!
+Made with ❤️ by Jeisa Boaventura.
 
-   ```bash
+---
 
-   code seu-repositorio
+Enjoy exploring my portfolio! 😊🎉
 
-```
-
-3. No VSCode, abra um arquivo HTML do projeto (ex: `index.html`).
-
-4. Clique com o botão direito no editor e selecione **"Open with Live Server"**.  
-
-   - Alternativamente, você pode iniciar o **Live Server** através da barra de status do VSCode.
-
-
-Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testar as alterações em tempo real.
-
-
-## Deploy
-
-
-Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
-
-
-- [Portfólio Pessoal](https://seu-usuario.github.io/seu-repositorio)
-
-
-## Contribuindo
-
-
-Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.
