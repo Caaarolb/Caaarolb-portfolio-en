@@ -20,7 +20,7 @@ Feel free to explore my projects and get in touch! 😊
 - Google Fonts
 
 ## 📷 Preview
-![Portfolio Screenshot](assets/img/portfolio-preview.png)
+![Portfolio Screenshot]([assets/img/portfolio-preview.png](https://caaarolb.github.io/Caaarolb-portfolio-en//index.html))
 
 ## 📩 Contact
 📧 Email: caaarolboa@gmail.com   
