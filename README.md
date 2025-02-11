@@ -19,8 +19,6 @@ Feel free to explore my projects and get in touch! 😊
 - JavaScript
 - Google Fonts
 
-## 📷 Preview
-![Portfolio Screenshot]([assets/img/portfolio-preview.png](https://caaarolb.github.io/Caaarolb-portfolio-en//index.html))
 
 ## 📩 Contact
 📧 Email: caaarolboa@gmail.com   
