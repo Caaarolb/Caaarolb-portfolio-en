@@ -4,7 +4,7 @@ Welcome to my portfolio! 🚀 I'm Jeisa Boaventura, a passionate Full Stack Deve
 
 Feel free to explore my projects and get in touch! 😊
 
-## 🔗 Live Demo
+## 
 👉 [Check out my portfolio](https://caaarolb.github.io/Caaarolb-portfolio-en/) 🌐
 
 ## 📌 Features
